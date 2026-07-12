@@ -20,3 +20,32 @@ This project manages a list of inventory items. Each item has a name, a quantity
    ```bash
    python app.py
 >>>>>>> master
+
+
+# Inventory Management System
+
+## Description
+
+This application manages inventory records and calculates stock statistics and inventory value.
+
+## Features
+
+- Display inventory items
+- Calculate total inventory value
+- Find highest and lowest stock items
+- Find the most valuable and least valuable items
+- Calculate average stock
+- Calculate average inventory value
+
+## Technologies
+
+- Python 3
+- Git
+- GitHub
+
+## Maintenance Activities
+
+- Corrective Maintenance
+- Adaptive Maintenance
+- Perfective Maintenance
+- Preventive Maintenance
