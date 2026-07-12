@@ -7,7 +7,9 @@ from utils.helpers import (
 
 
 def total_stock_value(items):
-    """Calculate total inventory value."""
+    """Calculate the total inventory value."""
+    if not items:
+        return 0
     return sum(item["quantity"] * item["price"] for item in items)
 
 
@@ -17,6 +19,11 @@ def display_inventory():
 
     print(f"{'Item':<15}{'Qty':<10}{'Price($)':<12}{'Value($)'}")
     print("-" * 55)
+
+    if not items:
+        print("No inventory items available.")
+        print("=" * 55)
+        return
 
     for item in items:
         value = item["quantity"] * item["price"]
