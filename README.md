@@ -49,3 +49,10 @@ This application manages inventory records and calculates stock statistics and i
 - Adaptive Maintenance
 - Perfective Maintenance
 - Preventive Maintenance
+
+## Running the Application
+
+### Without Docker
+
+```bash
+python app.py
