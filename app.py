@@ -44,3 +44,4 @@ def display_inventory():
 
 if __name__ == "__main__":
     display_inventory()
+    
