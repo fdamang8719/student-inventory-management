@@ -18,3 +18,10 @@ def average_stock(items):
         return 0
     total = sum(item["quantity"] for item in items)
     return total / len(items)
+
+def inventory_value(item):
+    """Return the total value of an inventory item."""
+    return item["quantity"] * item["price"]
+def inventory_value(item):
+    """Return the total value of an inventory item."""
+    return item["quantity"] * item["price"]
